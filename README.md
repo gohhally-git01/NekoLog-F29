@@ -1,28 +1,34 @@
-# ネコログF29
+# NEKOLOG-F29
 
-ネコログF29 は、ログファイルの整理・抽出・可視化を目的とした Python ツールです。
-GUI を持たないシンプルな構成で、現場での実用性と軽量性を重視しています。
+NEKOLOG-F29 is a Python-based utility designed for organizing, extracting, and visualizing GPS log files. It features a lightweight, CLI-focused design, prioritizing field practicality over a complex GUI.
 
-## 特徴
-- 指定フォルダ内のログファイルを自動整理
-- 必要な情報だけを抽出してまとめる
-- シンプルな設定で動作
-- Python 標準ライブラリ中心で依存が少ない
+「ネコログF29」は、ログファイルの整理・抽出・可視化を目的としたPythonツールです。現場での実用性と軽量性を重視し、シンプルな構成で動作します。
 
-## 必要環境
-- Python 3.x
-- OS: Windows / macOS / Linux
+## Features (特徴)
 
-## 使い方（Usage）
-1. リポジトリをクローンまたはダウンロード
-2. `config.json` を編集（必要に応じて）
-3. 以下のコマンドで実行
+* **Log Organization:** Automatically organizes log files within specified folders. (ログファイルの自動整理)
+* **Smart Extraction:** Extracts and summarizes essential data from raw logs. (必要な情報だけを抽出・集約)
+* **Lightweight:** Minimal dependencies, primarily using Python standard libraries. (標準ライブラリ中心の軽量動作)
+* **Drift Filtering:** Optimized for realistic path visualization by processing GPS noise. (GPSの揺らぎを処理し、リアルな動線を可視化)
 
+## Requirements (必要環境)
 
+* Python 3.10+
+* OS: Windows / macOS / Linux
 
-## ファイル構成（例）
+## Usage (使い方)
 
+1. **Clone or Download:** Get the repository to your local machine.
+2. **Configure:** Edit `config.json` if necessary to match your environment.
+3. **Run:** Execute the script via command line:
+   ```bas
 
+   Project Structure (ファイル構成)
+nekolog_f29.py: Main script
 
-## ライセンス
-本プロジェクトは MIT License のもとで公開されています。
+config.json: Configuration settings
+
+dist/: Executable builds (for Windows)
+
+License (ライセンス)
+This project is licensed under the MIT License.
