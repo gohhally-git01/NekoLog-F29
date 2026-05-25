@@ -21,8 +21,8 @@ NEKOLOG-F29 is a Python-based utility designed for organizing, extracting, and v
 1. **Clone or Download:** Get the repository to your local machine.
 2. **Configure:** Edit `config.json` if necessary to match your environment.
 3. **Run:** Execute the script via command line:
-４，Windows SmartScreen warning may appear.
-Click "More info" → "Run anyway".
+4. **Windows SmartScreen warning may appear.
+     Click "More info" → "Run anyway".
 
    ```bas
 
